@@ -1,0 +1,30 @@
+.shutout__block {
+  display: flex;
+  flex-direction: column;
+
+  .shutout__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+    .shutout__item {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      border: 1px solid #e5e5e5;
+      border-radius: 14px;
+      padding: 1.5rem;
+
+      &--heading {
+        display: flex;
+        justify-content: space-between;
+      }
+      &--name {
+        font-weight: 500;
+      }
+    }
+  }
+}

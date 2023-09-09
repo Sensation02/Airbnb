@@ -1,0 +1,11 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.description__text {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.1px;
+  color: #828282;
+}

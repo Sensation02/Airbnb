@@ -1,0 +1,28 @@
+.room__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  &__type {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: 0.15px;
+    color: #000000;
+  }
+  &__capacity {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.1px;
+    color: #828282;
+  }
+  &__price {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+}

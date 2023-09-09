@@ -1,0 +1,7 @@
+.photo {
+  border-radius: 16px;
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

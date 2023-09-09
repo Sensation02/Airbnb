@@ -1,0 +1,13 @@
+.details__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  .details__item__label {
+    font-weight: bold;
+  }
+  .details__item__value {
+    font-weight: normal;
+  }
+}

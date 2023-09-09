@@ -1,0 +1,25 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  padding: 8px 0;
+}
+.list-item .list-item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.list-item .list-item__content .list-item__title {
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+.list-item .list-item__content .list-item__body {
+  display: flex;
+  gap: 8px;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 400;
+}

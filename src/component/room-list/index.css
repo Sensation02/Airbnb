@@ -1,0 +1,10 @@
+.room__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.room__block .room__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
